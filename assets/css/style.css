@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  margin: 20px 0px;
+}
+nav .filter {
+  font-size: 20px;
+}
+nav ul {
+  display: flex;
+}
+nav ul .orange {
+  color: orange;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+nav ul li a:hover {
+  color: orange;
+  transition: 0.5s;
+}
+nav .container {
+  width: 90%;
+  margin: 0 5%;
+}
+nav .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-card {
+  width: 90%;
+  margin: 0 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image {
+  position: relative;
+  width: 23%;
+}
+.image img {
+  width: 300px;
+  height: 400px;
+  margin: 20px 0;
+}
+.image img:hover {
+  box-shadow: 1px -1px 20px 0px;
+  transition: 0.5s;
+}
+.image .image-title {
+  text-align: center;
+  margin: 10px 0;
+}
+.image .image-title p {
+  margin: 5px 0;
+}
+.image .image-title p:hover {
+  color: orangered;
+  transition: 0.5s;
+}
+.image .bal {
+  display: flex;
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  top: 30px;
+  left: 10px;
+  padding: 20px 5px;
+}
+.image .bal p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image .sale {
+  color: black;
+}
+.image .bg-white {
+  background-color: white;
+}
